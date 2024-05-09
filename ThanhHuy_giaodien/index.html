@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/layoutsite.css">
+    <script src="assets/jquery/jquery-3.7.1.min.js"></script>
+</head>
+<body>
+    <header class="section_header bg-white py-2">
+        <div class="container">
+            <div class="row">
+            <div class="col-md-3">
+                <a href="index.html">
+                    <img src="assets/images/logo.webp" class="img-fluid" alt="">
+                </a>
+            </div>
+            <div class="col-md-6">
+                <nav class="navbar navbar-expand-lg bg-white">
+                    <div class="container-fluid">
+                      <a class="navbar-brand d-none" href="#">Navbar</a>
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                          <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Trang chủ</a>
+                          </li>
+                          <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              Danh mục
+                            </a>
+                            <ul class="dropdown-menu">
+                              <li><a class="dropdown-item" href="#">Action</a></li>
+                              <li><a class="dropdown-item" href="#">Another action</a></li>
+                              <li><hr class="dropdown-divider"></li>
+                              <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                          </li>
+                          <a class="nav-link active" aria-current="page" href="#">Tin tức</a>
+                          <a class="nav-link active" aria-current="page" href="#">Liên hệ</a>
+                        </ul>
+                        <form class="d-flex" role="search">
+                          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                          <button class="btn btn-outline-success" type="submit">Search</button>
+                        </form>
+                      </div>
+                    </div>
+                  </nav>
+            </div>
+            <div class="col-md-3 py-3">
+                <ul class="nav justify-content-end">
+                    <li class="nav-item px-4">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </li>
+                    <li class="nav-item px-4">
+                        <i class="fa-solid fa-user"></i>
+                    </li>
+                    <li class="nav-item px-4">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                    </li>
+                    
+                </ul>
+            </div>
+            <div class="col-md-3"></div>
+        </div>
+    </div>
+
+    </header>
+
+  <main>
+    <div class="container">
+      <section class="products">
+        <article class="product">
+            <img src="assets/images/hinh1.png" alt="Sản phẩm 1">
+            <h2>Sản phẩm 1</h2>
+            <p>Giá: $100</p>
+            <button>Mua ngay</button>
+        </article>
+        <article class="product">
+            <img src="assets/images/hinh2.png" alt="Sản phẩm 2">
+            <h2>Sản phẩm 2</h2>
+            <p>Giá: $80</p>
+            <button>Mua ngay</button>
+        </article>
+        <article class="product">
+          <img src="assets/images/hinh3.png" alt="Sản phẩm 3">
+          <h2>Sản phẩm 3</h2>
+          <p>Giá: $50</p>
+          <button>Mua ngay</button>
+      </article>
+    </section>
+    </div>
+      </section>
+  </main>
+
+
+
+    <footer>
+      <div class="footer-content">
+          <div class="footer-section about">
+              <h2>Về chúng tôi</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam fermentum nunc et nisi tristique, at posuere risus consectetur.</p>
+              <div class="contact">
+                  <span><i class="fas fa-envelope"></i> example@example.com</span>
+                  <span><i class="fas fa-phone"></i> +123456789</span>
+              </div>
+              <div class="socials">
+                  <a href="#"><i class="fab fa-facebook"></i></a>
+                  <a href="#"><i class="fab fa-twitter"></i></a>
+                  <a href="#"><i class="fab fa-instagram"></i></a>
+              </div>
+          </div>
+          <div class="footer-section links">
+              <h2>Liên kết nhanh</h2>
+              <ul>
+                  <li><a href="#">Trang chủ</a></li>
+                  <li><a href="#">Sản phẩm</a></li>
+                  <li><a href="#">Dịch vụ</a></li>
+                  <li><a href="#">Tin tức</a></li>
+                  <li><a href="#">Liên hệ</a></li>
+              </ul>
+          </div>
+          <div class="footer-section contact-form">
+              <h2>Liên hệ</h2>
+              <form action="#">
+                  <input type="email" name="email" class="text-input contact-input" placeholder="Địa chỉ email">
+                  <textarea name="message" class="text-input contact-input" placeholder="Tin nhắn"></textarea>
+                  <button type="submit" class="btn btn-big contact-btn">
+                      <i class="fas fa-envelope"></i>
+                      Gửi
+                  </button>
+              </form>
+          </div>
+      </div>
+      <div class="footer-bottom">
+          &copy; 2024 Trang web bán hàng. All rights reserved.
+      </div>
+  </footer>
+
+</body>
+</html>
+
+
+
+    <script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/layoutsite.js"></script>
+</body>
+</html>
